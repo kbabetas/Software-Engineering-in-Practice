@@ -21,3 +21,10 @@
 bin/
 tmp/
 *.tmp
+/target/
+/classes/
+/maven-archiver/
+/maven-status/
+/test-classes/
+/archive-tmp/
+gradeshistogram/target/
