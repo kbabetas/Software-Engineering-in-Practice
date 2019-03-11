@@ -1,12 +1,12 @@
 # Software Engineering in Practice
 
-This repository will serve as a place where the projects from the course **Software Engineering in Practice**  will be uploaded. The course is part of the curriculum of the Department of Management Science and Technology from the Athens University of Economics and Business and are assigned by [Antonis Gkortzis](https://github.com/AntonisGkortzis). \
+This repository will serve as a place where the projects from the course **Software Engineering in Practice**  will be uploaded. The course is part of the curriculum of the Department of Management Science and Technology from the Athens University of Economics and Business and the projects are assigned by [Antonis Gkortzis](https://github.com/AntonisGkortzis).
 The projects will be completed in the Java Language and are focused on learning how to use several useful programming tools and techniques.
 
 ## The First Project
 ```
 Create a Java Application, by using Maven, that reads a file with students' grades and generates its histogram.
-The grades file should be given as a command-line argument at runtime. No checks are necessary.
+The grades file should be given as a command-line argument at runtime. No checks or tests are necessary.
 ```
 ## To Build:
 Primary build is supported with **Maven**.
@@ -16,7 +16,7 @@ mvn package
 Artifacts:
 * ``` Software-Engineering-in-Practice/seip2019/gradeshistogram/target/gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies.jar ```
 ## Installation
-To install there is  a self-contained jar file.
+To install there is a self-contained jar file.
 
 If you would like to run the ```gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies.jar ```, change the directory to ```Software-Engineering-in-Practice/seip2019/gradeshistogram/target```, then execute:
 
