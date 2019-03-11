@@ -7,7 +7,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartFrame;
 import org.jfree.chart.JFreeChart;
@@ -24,8 +23,6 @@ import org.jfree.data.xy.XYSeriesCollection;
 
 public class HistogramGenerator {
 
-	// private static BufferedReader br;
-
 	/**
 	 * The purpose of this method is to read the int grades from a text file and put
 	 * them in a list.
@@ -33,6 +30,7 @@ public class HistogramGenerator {
 	 * @param path specifies the path in which the text file is located
 	 * @return list which is the list of the grades
 	 */
+
 	public static List<Integer> readGrades(String path) {
 		List<Integer> list = new ArrayList<Integer>();
 		File file = new File(path);
@@ -57,9 +55,7 @@ public class HistogramGenerator {
 				e.printStackTrace();
 			}
 		}
-
 		return list;
-
 	}
 
 	/**
@@ -75,7 +71,6 @@ public class HistogramGenerator {
 		for (int i = 0; i < freq.length; i++) {
 			freq[i] = 0;
 		}
-		int pos;
 		for (int i = 0; i < grades.size(); i++) {
 			freq[grades.get(i)]++;
 		}
@@ -90,7 +85,6 @@ public class HistogramGenerator {
 	 */
 
 	public void developHistogram(int[] freq) {
-
 		XYSeriesCollection dataset = new XYSeriesCollection();
 		XYSeries data = new XYSeries("frequencies");
 		for (int i = 0; i < freq.length; i++) {
