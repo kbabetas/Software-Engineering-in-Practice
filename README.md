@@ -23,7 +23,7 @@ If you would like to run the ```gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependen
 ```
 java -jar gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies.jar textfile.txt
 ```
-Where ```textfile.txt``` is a txt file containing integer grades, from 0-10. There is a [```grades.txt```](https://github.com/kbabetas/Software-Engineering-in-Practice/blob/development/seip2019/gradeshistogram/src/main/resources/grades.txt) in the ```Software-Engineering-in-Practice/seip2019/gradeshistogram/src/main/resources/``` directory.
+Where ```textfile.txt``` is a txt file containing integer grades, from 0-10. This is a template of a [```grades.txt```](https://drive.google.com/file/d/1I1zGwuwf8KgQyWnoz0358WczAZvtSuHT/view) so that you can run the code.
 
 ## Requirements
 
