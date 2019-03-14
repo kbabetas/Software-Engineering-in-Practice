@@ -8,6 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Parent seip2019 Project</name>
+	<description>Parent Project of Software Engineering in Practice</description>
 
 	<modules>
 		<module>gradeshistogram</module>
