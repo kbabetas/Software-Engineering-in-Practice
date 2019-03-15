@@ -1,0 +1,30 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Eclipse IDE files
+.project
+.classpath
+.settings/
+.metadata
+bin/
+tmp/
+*.tmp
+/target/
+/classes/
+/maven-archiver/
+/maven-status/
+/test-classes/
+/archive-tmp/
+seip2019/gradeshistogram/target/
