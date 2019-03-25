@@ -1,9 +1,11 @@
 package utilities;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +18,7 @@ import java.util.List;
  * @author Konstantinos Babetas
  */
 
-public class FileUtilities {
+public final class FileUtilities {
 
 	private FileUtilities() {
 
@@ -26,7 +28,7 @@ public class FileUtilities {
 	 * The purpose of this class is to read a file from a specific path and save its
 	 * contents in a list.
 	 * 
-	 * @param path specifies the path in which the text file is located
+	 * @param filepath specifies the path in which the text file is located
 	 * 
 	 * @return list which contains the contents of the file
 	 */
@@ -55,5 +57,28 @@ public class FileUtilities {
 			}
 		}
 		return list;
+	}
+
+	/*
+	 * The purpose of this class is to write on a file provided with a specific path
+	 * and specific contents.
+	 * 
+	 * @param filepath specifies the path in which the file is to be written &
+	 * content specifies what is to be written in the file
+	 * 
+	 */
+	public static void writeFile(String filepath, List<String> content) {
+		FileWriter writer = null;
+		try {
+			writer = new FileWriter(filepath);
+			for (String str : content) {
+				writer.write(str);
+			}
+			writer.close();
+		} catch (IOException e) {
+
+			e.printStackTrace();
+		}
+
 	}
 }
