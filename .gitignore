@@ -21,7 +21,7 @@
 bin/
 tmp/
 *.tmp
-/target/
+target/
 /classes/
 /maven-archiver/
 /maven-status/
