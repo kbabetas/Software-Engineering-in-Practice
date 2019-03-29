@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/*
+/**
  * The purpose of this class is to provide some File Utilities that
  * can be used by other classes without having to write the code from 
  * scratch. This class focuses on reading a file and on writing a file.
@@ -23,7 +23,7 @@ public final class FileUtilities {
 
 	}
 
-	/*
+	/**
 	 * The purpose of this class is to read a file from a specific path and save its
 	 * contents in a list.
 	 * 
@@ -58,7 +58,7 @@ public final class FileUtilities {
 		return list;
 	}
 
-	/*
+	/**
 	 * The purpose of this class is to write on a file provided with a specific path
 	 * and specific contents.
 	 * 
