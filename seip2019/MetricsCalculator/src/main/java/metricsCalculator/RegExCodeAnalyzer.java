@@ -5,14 +5,24 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/*
- * The purpose of this class is to analyse the code of a Java file using Regular Expressions
+/**
+ * The purpose of this class is to analyse the code of a Java file using Regular
+ * Expressions
  * 
  * @author Konstantinos Babetas
  */
 
 public class RegExCodeAnalyzer extends CodeAnalyzerStrategy {
 
+	/**
+	 * The purpose of this method is to find the lines of code (loc), the number of
+	 * methods (nom) and the number of classes (noc) that exist in a list with
+	 * strings.
+	 * 
+	 * @param list is a list which contains lines of words
+	 * @return contents is a list which contains the 3 metrics that are calculated
+	 * @see metricsCalculator.CodeAnalyzerStrategy#calculateMetrics(java.util.List)
+	 */
 	public List<String> calculateMetrics(List<String> list) {
 		List<String> contents = new ArrayList<String>();
 		String classeRreg = "\\bclass\\b";
