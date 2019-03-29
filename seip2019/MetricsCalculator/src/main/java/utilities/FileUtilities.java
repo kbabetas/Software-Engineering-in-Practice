@@ -1,7 +1,6 @@
 package utilities;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -72,7 +71,7 @@ public final class FileUtilities {
 		try {
 			writer = new FileWriter(filepath);
 			for (String str : content) {
-				writer.write(str);
+				writer.write(str + "\n");
 			}
 			writer.close();
 		} catch (IOException e) {
