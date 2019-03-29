@@ -17,7 +17,7 @@ public class RegExCodeAnalyzer extends CodeAnalyzerStrategy {
 	/**
 	 * The purpose of this method is to find the lines of code (loc), the number of
 	 * methods (nom) and the number of classes (noc) that exist in a list with
-	 * strings.
+	 * strings whilst using Regular Expressions.
 	 * 
 	 * @param list is a list which contains lines of words
 	 * @return contents is a list which contains the 3 metrics that are calculated
