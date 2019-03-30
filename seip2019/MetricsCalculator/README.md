@@ -1,7 +1,7 @@
 ## Design Pattern Assignment
-```
+
 Create a Java Application, by using Maven, that for a Java source code file
-will create two implementations that calculate the following source code metric:
+will create two implementations that calculate the following source code metrics:
 * loc - lines of source code (Excluding comments and empty lines)
 * noc - number of classes
 * nom - number of methods
@@ -18,7 +18,7 @@ for the main operations like readSourceCode, calculateMetrics and writeCSV.
 
 The Java source code file and the type of analyzer should be given as
 command-line arguments at runtime. No checks or tests are necessary.
-```
+
 
 ## Class Diagram
 
