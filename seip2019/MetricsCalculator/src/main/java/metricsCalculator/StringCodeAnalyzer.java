@@ -46,9 +46,6 @@ public class StringCodeAnalyzer extends CodeAnalyzerStrategy {
 		contents.add(String.valueOf(loc));
 		contents.add(String.valueOf(noc));
 		contents.add(String.valueOf(nom));
-		for (int j = 0; j < contents.size(); j++) {
-			System.out.println(contents.get(j));
-		}
 		return contents;
 
 	}
