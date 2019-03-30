@@ -17,7 +17,14 @@ public class Factory {
 	 */
 
 	public static CodeAnalyzerStrategy getCodeAnalyzerStrategy(String type) {
-		CodeAnalyzerStrategy strategy = CodeAnalyzerStrategy.CreateCodeAnalyzerStrategy(type);
+		CodeAnalyzerStrategy strategy = null;
+
+		if (type.contentEquals("String")) {
+			strategy = new StringCodeAnalyzer();
+
+		} else {
+			strategy = new RegExCodeAnalyzer();
+		}
 		return strategy;
 	}
 }

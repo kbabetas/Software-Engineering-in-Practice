@@ -17,26 +17,6 @@ public abstract class CodeAnalyzerStrategy {
 	static String line = null;
 
 	/**
-	 * The purpose of this method is to create a specific type of Code Analyzer
-	 * given the type.
-	 * 
-	 * @param type is the indicator that will show whether a String or a RegEx Code
-	 *             Analyzer will be created
-	 * @return analyzer is the analyzer of the file
-	 */
-
-	public static CodeAnalyzerStrategy CreateCodeAnalyzerStrategy(String type) {
-		CodeAnalyzerStrategy analyzer = null;
-		if (type.contentEquals("String")) {
-			analyzer = new StringCodeAnalyzer();
-
-		} else {
-			analyzer = new RegExCodeAnalyzer();
-		}
-		return analyzer;
-	}
-
-	/**
 	 * The purpose of this method is to calculate the metrics from a given list.
 	 * 
 	 * @param list contains the lines of the file from which the metrics will be
