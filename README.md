@@ -3,20 +3,20 @@
 This repository will serve as a place where the projects from the course **Software Engineering in Practice**  will be uploaded. The course is part of the curriculum of the Department of Management Science and Technology from the Athens University of Economics and Business and the projects are assigned by [Antonis Gkortzis](https://github.com/AntonisGkortzis).
 The projects will be completed in the Java Language and are focused on learning how to use several useful programming tools and techniques.
 
-## [The First Project](/seip2019/gradeshistogram/README.md)
+## The First Project
 ```
 Create a Java Application, by using Maven, that reads a file with students' grades and generates its histogram.
 The grades file should be given as a command-line argument at runtime. No checks or tests are necessary.
 ```
 You can find the assignment and its instructions [here](/seip2019/gradeshistogram/README.md).
 
-## [The Second Project](/seip2019/MetricsCalculator/README.md)
+## The Second Project
 ```
 Create a Java Application, by using Maven, that for a Java source code file
 will create two implementations that calculate the following source code metrics:
-* loc - lines of source code (Excluding comments and empty lines)
-* noc - number of classes
-* nom - number of methods
+1) loc - lines of source code (Excluding comments and empty lines)
+2) noc - number of classes
+3) nom - number of methods
 ```
 You can find the assignment and its instructions [here](/seip2019/MetricsCalculator/README.md).
 ## Requirements
