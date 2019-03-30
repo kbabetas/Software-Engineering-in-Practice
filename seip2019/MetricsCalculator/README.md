@@ -21,7 +21,7 @@ command-line arguments at runtime. No checks or tests are necessary.
 
 
 ## Class Diagram
-
+![](/resources/UML_Diagram.png)
 ## To Build:
 Primary build is supported with **Maven**.
 ```
