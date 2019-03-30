@@ -21,7 +21,7 @@ command-line arguments at runtime. No checks or tests are necessary.
 
 
 ## Class Diagram
-![](seip2019/MetricsCalculator/resources/UML_Diagram.jpg)
+![](/seip2019/MetricsCalculator/resources/UML_Diagram.jpg)
 ## To Build:
 Primary build is supported with **Maven**.
 ```
