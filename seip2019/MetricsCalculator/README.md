@@ -1,18 +1,23 @@
 ## Design Pattern Assignment
 ```
-Create a Java Application, by using Maven, that for a Java source code file will creare rwo implementations that calculate the following source code metric:
+Create a Java Application, by using Maven, that for a Java source code file
+will create two implementations that calculate the following source code metric:
 * loc - lines of source code (Excluding comments and empty lines)
 * noc - number of classes
 * nom - number of methods
 Implementations' details:
 * The first source code analyzer should be implemented using Regular Expressions
 * The second source code analyzer should be implemented using String Comparison
-* The user will be able to choose between the two analyzers at runtime. The two analyzers should participate in a Strategy and Factory patterns.
-* Reading the source code and writing the csv file operations should be performed by methods in a Utility class.
-* The project should have a Facade class that provides public functions for the main operations like readSourceCode, calculateMetrics and writeCSV.
+* The user will be able to choose between the two analyzers at runtime.
+The two analyzers should participate in a Strategy and Factory patterns.
+* Reading the source code and writing the csv file operations should be
+performed by methods in a Utility class.
+* The project should have a Facade class that provides public functions
+for the main operations like readSourceCode, calculateMetrics and writeCSV.
 * With the source code you should also deliver a Class Diagram.
 
-The Java source code file and the type of analyzer should be given as  command-line arguments at runtime. No checks or tests are necessary.
+The Java source code file and the type of analyzer should be given as
+command-line arguments at runtime. No checks or tests are necessary.
 ```
 
 ## Class Diagram
