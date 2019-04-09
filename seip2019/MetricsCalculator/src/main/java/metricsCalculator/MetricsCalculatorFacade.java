@@ -8,17 +8,17 @@ import utilities.FileUtilities;
 /**
  * The purpose of this class is to serve as a Facade that provides functions for
  * the main operations in the design pattern "Facade".
- * 
+ *
  * @author Konstantinos Babetas
  *
  */
 
-public class Facade {
+public class MetricsCalculatorFacade {
 
 	/**
 	 * The purpose of this method is to read a file from a certain path and put its
 	 * contents in a list.
-	 * 
+	 *
 	 * @param filepath is the location of the file
 	 * @return list contains the contents of the file
 	 */
@@ -32,7 +32,7 @@ public class Facade {
 	/**
 	 * The purpose of this method is to write a CSV in a certain path and put the
 	 * contents of a list inside it.
-	 * 
+	 *
 	 * @param filepath is the location of the CSV to be created
 	 * @param content  is what is going to be written in the CSV
 	 */
@@ -44,7 +44,7 @@ public class Facade {
 	/**
 	 * The purpose of this method is to calculate the metrics according to the type
 	 * of analyzer that is to be created and given a specific list of lines.
-	 * 
+	 *
 	 * @param type is the indicator about whether to create a String or RegEx Code
 	 *             Analyzer
 	 * @param list contains the contents of the file
@@ -53,7 +53,7 @@ public class Facade {
 
 	public static List<String> calculateMetrics(String type, List<String> list) {
 		List<String> results = null;
-		CodeAnalyzerStrategy strategy = Factory.getCodeAnalyzerStrategy(type);
+		CodeAnalyzerStrategy strategy = CodeAnalyzerFactory.getCodeAnalyzerStrategy(type);
 		results = strategy.calculateMetrics(list);
 		return results;
 	}
