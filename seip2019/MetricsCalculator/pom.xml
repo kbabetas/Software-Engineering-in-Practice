@@ -20,7 +20,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>MetricsCalculator.DemoMetricsMain</mainClass>
+							<mainClass>metricsCalculator.DemoMetricsMain</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
