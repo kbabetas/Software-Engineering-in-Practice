@@ -8,23 +8,17 @@ The projects will be completed in the Java Language and are focused on learning 
 Create a Java Application, by using Maven, that reads a file with students' grades and generates its histogram.
 The grades file should be given as a command-line argument at runtime. No checks or tests are necessary.
 ```
-## To Build:
-Primary build is supported with **Maven**.
-```
-mvn package
-```
-Artifacts:
-* ``` Software-Engineering-in-Practice/seip2019/gradeshistogram/target/gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies.jar ```
-## Installation
-To install there is a self-contained jar file.
+You can find the assignment and its instructions [here](/seip2019/gradeshistogram/README.md).
 
-If you would like to run the ```gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies.jar ```, change the directory to ```Software-Engineering-in-Practice/seip2019/gradeshistogram/target```, then execute:
-
+## The Second Project
 ```
-java -jar gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies.jar textfile.txt
+Create a Java Application, by using Maven, that for a Java source code file
+will create two implementations that calculate the following source code metrics:
+1) loc - lines of source code (Excluding comments and empty lines)
+2) noc - number of classes
+3) nom - number of methods
 ```
-Where ```textfile.txt``` is a txt file containing integer grades, from 0-10. This is a template of a [```grades.txt```](https://drive.google.com/file/d/1I1zGwuwf8KgQyWnoz0358WczAZvtSuHT/view) so that you can run the code.
-
+You can find the assignment and its instructions [here](/seip2019/MetricsCalculator/README.md).
 ## Requirements
 
 * [Java](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html)
