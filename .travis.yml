@@ -15,11 +15,12 @@ before_script: # Perform commands
 - cd seip2019
 
 script:
- - mvn cobertura:cobertura
+ #- mvn cobertura:cobertura
+ - mvn clean package jacoco:report
 
 after_success:
 - echo “Process terminated successfully”
-- bash <(curl -s https://codecov.io/bash) -t uuid-repo-token
+- bash <(curl -s https://codecov.io/bash)
 
 notifications:
   email: false
