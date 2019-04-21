@@ -10,7 +10,7 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)
-public class IntegerOperationsTest_PowerOfTwo_Parameterized {
+public class IntegerOperations_PowerOfTwo_ParameterizedTest {
 
 	@Parameter(value = 0)
 	public int power;
