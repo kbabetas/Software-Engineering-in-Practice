@@ -1,5 +1,7 @@
 package filehandlers;
 
+import java.io.IOException;
+
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
@@ -34,6 +36,11 @@ public class FileIOTest {
 	
 	@Test(expected = NumberFormatException.class)
 	public void test_readFile_invalid() {
+		fio.readFile(invalid);
+	}
+	
+	@Test(expected = IOException.class)
+	public void test_readFile_invalid_IOE() {
 		fio.readFile(invalid);
 	}
 }
