@@ -66,7 +66,7 @@ public class IntegerOperationsTest {
 
 	@Test
 	public void test_add_positives() {
-		Assert.assertEquals(8, io.add(1, 5));
+		Assert.assertEquals(6, io.add(1, 5));
 	}
 
 	@Test
