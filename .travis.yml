@@ -15,7 +15,8 @@ before_script: # Perform commands
 - cd seip2019
 
 script:
- - mvn clean package jacoco: report "mvn cobertura:cobertura"
+ - mvn cobertura:cobertura
+ - mvn clean package jacoco: report 
 
 after_success:
 - echo “Process terminated successfully”
