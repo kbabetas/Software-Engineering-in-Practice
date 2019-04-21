@@ -3,14 +3,14 @@
 This repository will serve as a place where the projects from the course **Software Engineering in Practice**  will be uploaded. The course is part of the curriculum of the Department of Management Science and Technology from the Athens University of Economics and Business and the projects are assigned by [Antonis Gkortzis](https://github.com/AntonisGkortzis).
 The projects will be completed in the Java Language and are focused on learning how to use several useful programming tools and techniques.
 
-## The First Project
+## The First Project - Maven
 ```
 Create a Java Application, by using Maven, that reads a file with students' grades and generates its histogram.
 The grades file should be given as a command-line argument at runtime. No checks or tests are necessary.
 ```
 You can find the assignment and its instructions [here](/seip2019/gradeshistogram/README.md).
 
-## The Second Project
+## The Second Project - Design Patterns
 ```
 Create a Java Application, by using Maven, that for a Java source code file
 will create two implementations that calculate the following source code metrics:
@@ -19,6 +19,15 @@ will create two implementations that calculate the following source code metrics
 3) nom - number of methods
 ```
 You can find the assignment and its instructions [here](/seip2019/MetricsCalculator/README.md).
+
+## The Third Project - Unit Testing & Continuous Integration
+
+```
+Create a set of test cases for the IntegerOperations class, the FileIO class and the ArrayOperations class all of which can be found [here](https://drive.google.com/drive/folders/14E19OUxEeO0RIxxszwD1h0tbXpnqtr5d).
+Connect your repository with Travis in order to provide a continuous integration/build environment for your set of modules and create a code coverage report.
+```
+You can find the assignment and its instructions [here](/seip2019/unittesting/README.md).
+
 ## Requirements
 
 * [Java](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html)
