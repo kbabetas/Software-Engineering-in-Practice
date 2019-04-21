@@ -7,8 +7,13 @@ jdk:
 branches:
 only:
 - master
+
+env:
+  global:
+    - CODECOV_TOKEN="3445cb00-39b9-4838-a369-ad6a1a824792"
 before_script: # Perform commands
 - cd seip2019
+
 script:
  - mvn clean package jacoco: report codecov: report
 
