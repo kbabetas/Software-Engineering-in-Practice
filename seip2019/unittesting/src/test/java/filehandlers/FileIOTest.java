@@ -39,8 +39,4 @@ public class FileIOTest {
 		fio.readFile(invalid);
 	}
 	
-	@Test(expected = IOException.class)
-	public void test_readFile_invalid_IOE() {
-		fio.readFile(invalid);
-	}
 }
