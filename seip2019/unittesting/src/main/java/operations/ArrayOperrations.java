@@ -12,7 +12,7 @@ public class ArrayOperrations {
 	private IntegerOperations intOprs;
 
 	/***
-	 * Default Constructor is private to prevent creating an a class instance
+	 * Default Constructor is private to prevent creating a class instance
 	 * without injecting the required dependencies.
 	 */
 	private ArrayOperrations() {
