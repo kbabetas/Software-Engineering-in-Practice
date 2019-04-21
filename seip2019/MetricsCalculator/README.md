@@ -28,14 +28,14 @@ Primary build is supported with **Maven**.
 mvn package
 ```
 Artifacts:
-* ``` Software-Engineering-in-Practice/seip2019/MetricsCalculator/target/MetricsCalculator-0.0.1-SNAPSHOT-jar-with-dependencies.jar ```
+* ``` Software-Engineering-in-Practice/seip2019/MetricsCalculator/target/MetricsCalculator-0.0.1-SNAPSHOT.jar ```
 ## Installation
 To install there is a self-contained jar file.
 
-If you would like to run the ```MetricsCalculator-0.0.1-SNAPSHOT-jar-with-dependencies.jar ```, change the directory to ```Software-Engineering-in-Practice/seip2019/MetricsCalculator/target```, then execute:
+If you would like to run the ```MetricsCalculator-0.0.1-SNAPSHOT.jar ```, change the directory to ```Software-Engineering-in-Practice/seip2019/MetricsCalculator/target```, then execute:
 
 ```
-java -jar MetricsCalculator-0.0.1-SNAPSHOT-jar-with-dependencies.jar [sourceFile] [String or RegEx]
+java -jar MetricsCalculator-0.0.1-SNAPSHOT.jar [sourceFile] [String or RegEx]
 ```
 Where ```[sourceFile]``` is a .java file containing Java Code and ```[String or RegEx]``` is the indicator of whether to use String Comparison or Regular Expressions to calculate the desired Metrics.
 
