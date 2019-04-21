@@ -43,7 +43,7 @@ public class IntegerOperations {
 	 * Calculates the power of two for a given power. For example: <br>
 	 * 2^0=1, 2^1=2, 2^2=4, 2^3=8, etc,.
 	 * 
-	 * @param number the
+	 * @param the number 
 	 * @return the result
 	 * @throws IllegalArgumentException when the given power is a negative number
 	 * @throws IllegalArgumentException when the given power is > 31 and thus,
