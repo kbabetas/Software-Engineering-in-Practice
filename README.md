@@ -26,8 +26,11 @@ You can find the assignment and its instructions [here](/seip2019/MetricsCalcula
 ## The Third Project - Unit Testing & Continuous Integration
 
 ```
-Create a set of test cases for the IntegerOperations class, the FileIO class and the ArrayOperations class all of which can be found [here](https://drive.google.com/drive/folders/14E19OUxEeO0RIxxszwD1h0tbXpnqtr5d).
-Connect your repository with Travis in order to provide a continuous integration/build environment for your set of modules and create a code coverage report.
+Create a set of test cases for the IntegerOperations class, the FileIO class
+and the ArrayOperations class all of which can be found [here](https://drive.google.com/drive/folders/14E19OUxEeO0RIxxszwD1h0tbXpnqtr5d).
+Connect your repository with Travis in order to provide a continuous
+integration/build environment for your set of modules and create a code
+coverage report.
 ```
 You can find the assignment and its instructions [here](/seip2019/unittesting/README.md).
 
