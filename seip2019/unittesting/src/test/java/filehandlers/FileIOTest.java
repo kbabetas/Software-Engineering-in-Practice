@@ -13,6 +13,7 @@ public class FileIOTest {
 	String valid = "src/test/resources/valid.txt";
 	String invalid ="src/test/resources/invalid.txt";
 	String empty ="src/test/resources/empty.txt";
+	String letters ="src/test/resources/letters.txt";
 	int [] output = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
 	int [] emptyOutput = {};
 	
@@ -37,6 +38,11 @@ public class FileIOTest {
 	@Test(expected = NumberFormatException.class)
 	public void test_readFile_invalid() {
 		fio.readFile(invalid);
+	}
+	
+	@Test(expected = NumberFormatException.class)
+	public void test_readFile_letters() {
+		fio.readFile(letters);
 	}
 	
 }

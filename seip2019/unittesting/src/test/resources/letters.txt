@@ -1,0 +1,1 @@
+No permission to see this file, so IOException should occur. 
