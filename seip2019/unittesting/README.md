@@ -36,9 +36,9 @@ build. You can check these options under the ```jdk``` tag in the ```.travis.yml
 After each build, the badge is updated with the corresponding build status,
  ```green``` for passes and ```red``` for failures.
 
- ### CodeCov
+### Code Coverage
 Code coverage reports provided by CodeCov is available on the repository page in
-the CodeCov website. The analysis is executed after each successfully TravisCI build. 
+the CodeCov website. The analysis is executed after each successfully TravisCI build.
 
 ## Requirements
 
@@ -48,6 +48,8 @@ the CodeCov website. The analysis is executed after each successfully TravisCI b
 ## Built With
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [Eclipse](https://www.eclipse.org/downloads/packages/release/2018-12/r/eclipse-ide-java-developers) - Integrated Development Environment
+* [TravisCI](https://travis-ci.com/) - Continuous Integration Tool
+* [CodeCov](https://codecov.io/) - Code Coverage Tool
 
 ## Authors
 
