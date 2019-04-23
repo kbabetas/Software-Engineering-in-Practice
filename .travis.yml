@@ -11,11 +11,11 @@ only:
 env:
   global:
     - CODECOV_TOKEN="3445cb00-39b9-4838-a369-ad6a1a824792"
-before_script: # Perform commands
+    
+before_script:
 - cd seip2019
 
 script:
- #- mvn cobertura:cobertura
  - mvn clean package jacoco:report
 
 after_success:
