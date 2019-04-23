@@ -5,6 +5,12 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
+/**
+ * The purpose of this class is to create test cases for the IntegerOperations class
+ * 
+ * @author Konstantinos Babetas
+ *
+ */
 public class IntegerOperationsTest {
 
 	IntegerOperations io = new IntegerOperations();
@@ -87,7 +93,7 @@ public class IntegerOperationsTest {
 		thrown.expect(IllegalArgumentException.class);
 		io.powerOfTwo(-1);
 	}
-
+	
 	@Test
 	public void test_powerOfTwo_overflow() {
 		thrown.expect(IllegalArgumentException.class);

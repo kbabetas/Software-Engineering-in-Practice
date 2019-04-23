@@ -9,6 +9,13 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 
+/**
+ * The purpose of this class is to create parameterized tests for the powerOfTwo
+ * method of the IntegerOperations class
+ * 
+ * @author Konstantinos Babetas
+ *
+ */
 @RunWith(Parameterized.class)
 public class IntegerOperations_PowerOfTwo_ParameterizedTest {
 
@@ -26,7 +33,7 @@ public class IntegerOperations_PowerOfTwo_ParameterizedTest {
 	}
 
 	@Test
-	public void test_powerOfTwoNormalCases() {
+	public void test_powerOfTwo() {
 		Assert.assertEquals(result, io.powerOfTwo(power));
 	}
 
